@@ -1,5 +1,5 @@
-# maquina-Trust
-Resolviendo maquina-Trust de el pingüino de Mario
+<h1 aling="center"> maquina-Trust </h1>
+<em> # Resolviendo maquina-Trust de "El Pingüino de Mario" </em>
 
 ## Paso N°:1 Scaneo con nmap. (Fase de reconocimiento)
 
