@@ -1,9 +1,9 @@
-<h1 aling="center"> maquina-Trust </h1>
-<em> # Resolviendo maquina-Trust de "El Pingüino de Mario" </em>
+# maquina-Trust 
+# Resolviendo maquina-Trust de "El Pingüino de Mario" 
 
 ## Paso N°:1 Scaneo con nmap. (Fase de reconocimiento)
 
-nmap -A 172.17.0.2
+> nmap -A 172.17.0.2
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-17 09:40 -03
 Nmap scan report for 172.17.0.2
 Host is up (0.000094s latency).
