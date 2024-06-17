@@ -1,9 +1,9 @@
 # Maquina-Trust 
 ## Resolviendo maquina-Trust de "El Pingüino de Mario" 
 
-## Paso N°:1 Scaneo con nmap. (Fase de reconocimiento)
+> Paso N°:1 Scaneo con nmap. (Fase de reconocimiento)
 
-'nmap -A 172.17.0.2
+'''bash nmap -A 172.17.0.2
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-17 09:40 -03
 Nmap scan report for 172.17.0.2
 Host is up (0.000094s latency).
@@ -19,7 +19,7 @@ PORT   STATE SERVICE VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 6.49 seconds'
+Nmap done: 1 IP address (1 host up) scanned in 6.49 seconds'''
 
 
 Key Features:
