@@ -25,20 +25,51 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 6.49 seconds
 ```
 
+## Paso N°2: Enumeracion usando gobuster.
 
-Key Features:
+```bash
+gobuster dir -u "http://172.17.0.2" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt,py,bak,php.bak
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://172.17.0.2
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Extensions:              php,txt,py,bak,php.bak
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/.php                 (Status: 403) [Size: 275]
+/secret.php           (Status: 200) [Size: 927]
+/.php                 (Status: 403) [Size: 275]
+/server-status        (Status: 403) [Size: 275]
+Progress: 1323360 / 1323366 (100.00%)
+===============================================================
+Finished
+===============================================================
+```
+## Paso N°3: revisar y utilizar lo encontrado.
 
-    Script Fusion: Xtrem-Tools seamlessly combines multiple Bash scripts into a cohesive and integrated tool, eliminating the need to manage and execute them individually.
-
-    Interactive Console: Enjoy a user-friendly console interface that simplifies script selection and execution. With Xtrem-Tools, users can effortlessly choose the desired functionality without navigating through multiple scripts.
-
-    Customization: Tailor your experience by selecting the specific Bash script you need for a particular task. Xtrem-Tools offers a modular approach, giving users the flexibility to use only the scripts that suit their requirements.
-
-How to Use:
-
-    Run Xtrem-Tools in your terminal.
-    Navigate through the interactive console to choose the desired script.
-    Execute the selected script seamlessly within the Xtrem-Tools environment.
+### _En éste caso vemos un "/secret.php" el cual vamos a usar poniendolo en la web como "http://172.17.0.2/secret.php" ,en la salida nos encontramos con un mensaje que dice: 
+> mario, ésta pagina web no es vulnerable.
+<img src="/home/eze/Pictures/maquinakali/scaneo4" alt="Scaneo" width="400">
 
 
-Enhance your scripting experience with Xtrem-Tools, bringing efficiency and convenience to your Bash script management.
+Asi que como nos da un nombre (Mario) podemos usarlo de prueba para ver si podemos obtener acceso por medio del ssh,
+pero como no tenemos la contraseña vamos a usar ataque de fuerza bruta en éste caso con hydra.
+
+
+
+
+
+
+
+
+
+
+
