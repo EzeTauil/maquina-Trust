@@ -30,7 +30,7 @@ Nmap done: 1 IP address (1 host up) scanned in 6.49 seconds
 ### _Ya que podemos ver en el scaneo de nmap que el puerto "80/tcp open http Apache httpd 2.4.57 ((Debian))" esta abierto, asi que ponemos "http://172.17.0.2" en el navegador para ver que muestra:_
 
 ![scaneo2](https://github.com/EzeTauil/maquina-Trust/assets/118028611/4e677bca-cea9-4c82-8f11-cc9d40e33d8a)
-
+### _Al ver solo la pagina de configuracion de Apache procedemos a un scaneo con Gobuster para ver si encontramos algo más importante._
 
 ## Paso N°3: Enumeracion usando gobuster.
 
@@ -71,8 +71,7 @@ Finished
 
 ![scaneo4](https://github.com/EzeTauil/maquina-Trust/assets/118028611/116d220c-227e-4319-ab35-499b67743eba)
 
-### _Asi que como nos da un nombre (Mario) podemos usarlo de prueba para ver si podemos obtener acceso por medio del ssh,
-pero como no tenemos la contraseña vamos a usar ataque de fuerza bruta en éste caso con hydra_
+### _Asi que como nos da un nombre (Mario) podemos usarlo de prueba para ver si podemos obtener acceso por medio del ssh, pero como no tenemos la contraseña vamos a usar ataque de fuerza bruta en éste caso con hydra_
 
 ## Paso N°5: Ataque de Fuerza Bruta con Hydra.
 
