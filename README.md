@@ -57,7 +57,7 @@ Finished
 
 ### _En éste caso vemos un "/secret.php" el cual vamos a usar poniendolo en la web como "http://172.17.0.2/secret.php" ,en la salida nos encontramos con un mensaje que dice: 
 > mario, ésta pagina web no es vulnerable.
-![Scaneo4](/home/eze/Pictures/maquinakali/scaneo4.png)
+![scaneo4](https://github.com/EzeTauil/maquina-Trust/assets/118028611/0507e600-5c1c-4900-bfef-f7de45f26179)
 
 
 Asi que como nos da un nombre (Mario) podemos usarlo de prueba para ver si podemos obtener acceso por medio del ssh,
