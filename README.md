@@ -119,7 +119,7 @@ permitted by applicable law.
 ## Paso N°7: Escalando Privilegios.
 
 ```bash
-~$ whoami
+mario@10340d532be9:~$ whoami
 mario
 ```
 ![acceso2](https://github.com/EzeTauil/maquina-Trust/assets/118028611/4050709c-8b2c-44e3-9aa3-56f4a0a00c73)
