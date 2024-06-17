@@ -145,7 +145,8 @@ User mario may run the following commands on 10340d532be9:
 
 ## Obteniendo Shell con acceso root:
 
-![accesoroot](https://github.com/EzeTauil/maquina-Trust/assets/118028611/5afc3cb7-1047-4137-8a17-def53769b98d)
+![accesoroot](https://github.com/EzeTauil/maquina-Trust/assets/118028611/648c4fee-27b6-40e6-8d4e-42315ee430ff)
+
 
 
 
