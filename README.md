@@ -27,7 +27,7 @@ Nmap done: 1 IP address (1 host up) scanned in 6.49 seconds
 ![scaneo1](https://github.com/EzeTauil/maquina-Trust/assets/118028611/839fd0e6-ddae-4b03-ad92-ea861a58cfa6)
 
 ## Paso N°2: Buscamos alguna pista en la web.
-### -Ya que podemos ver en el scaneo de nmap que el puerto "80/tcp open http Apache httpd 2.4.57 ((Debian))" esta abierto, asi que ponemos "http://172.17.0.2" en el navegador para ver que muestra:_
+### _Ya que podemos ver en el scaneo de nmap que el puerto "80/tcp open http Apache httpd 2.4.57 ((Debian))" esta abierto, asi que ponemos "http://172.17.0.2" en el navegador para ver que muestra:_
 
 ![scaneo2](https://github.com/EzeTauil/maquina-Trust/assets/118028611/4e677bca-cea9-4c82-8f11-cc9d40e33d8a)
 
@@ -64,7 +64,7 @@ Finished
 
 
 
-## Paso N°4: revisar y utilizar lo encontrado.
+## Paso N°4: Revisar y utilizar lo encontrado.
 
 ### _En éste caso vemos un "/secret.php" el cual vamos a usar poniendolo en la web como "http://172.17.0.2/secret.php" ,en la salida nos encontramos con un mensaje que dice:_ 
 > mario, ésta web no es vulnerable.
