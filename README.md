@@ -33,6 +33,7 @@ Nmap done: 1 IP address (1 host up) scanned in 6.49 seconds
 ### _Al ver solo la pagina de configuracion de Apache procedemos a un scaneo con Gobuster para ver si encontramos algo más importante._
 
 ## Paso N°3: Enumeracion usando gobuster.
+### _Usamos el comando "gobuster dir -u" para enumerar todos los directorios en el servidor web y "-x php,txt,py,bak,php.bak" para las extensiones de archivo que Gobuster debe añadir a las palabras en la wordlist durante la búsqueda._
 
 ```bash
 gobuster dir -u "http://172.17.0.2" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt,py,bak,php.bak
@@ -69,7 +70,8 @@ Finished
 ### _En éste caso vemos un "/secret.php" el cual vamos a usar poniendolo en la web como "http://172.17.0.2/secret.php" ,en la salida nos encontramos con un mensaje que dice:_ 
 > mario, ésta web no es vulnerable.
 
-![scaneo4](https://github.com/EzeTauil/maquina-Trust/assets/118028611/116d220c-227e-4319-ab35-499b67743eba)
+![scaneo4](https://github.com/EzeTauil/maquina-Trust/assets/118028611/098a01f7-2121-470d-9fe4-b0ab13a4b91b)
+
 
 ### _Asi que como nos da un nombre (Mario) podemos usarlo de prueba para ver si podemos obtener acceso por medio del ssh, pero como no tenemos la contraseña vamos a usar ataque de fuerza bruta en éste caso con hydra_
 
