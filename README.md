@@ -57,7 +57,7 @@ Finished
 
 ### _En éste caso vemos un "/secret.php" el cual vamos a usar poniendolo en la web como "http://172.17.0.2/secret.php" ,en la salida nos encontramos con un mensaje que dice: 
 > mario, ésta pagina web no es vulnerable.
-<img src="/home/eze/Pictures/maquinakali/scaneo4" alt="Scaneo" width="400">
+<img src="/home/eze/Pictures/maquinakali/scaneo4.png" alt="Scaneo" width="400">
 
 
 Asi que como nos da un nombre (Mario) podemos usarlo de prueba para ver si podemos obtener acceso por medio del ssh,
