@@ -139,7 +139,7 @@ User mario may run the following commands on 10340d532be9:
 ```
 ![acceso3](https://github.com/EzeTauil/maquina-Trust/assets/118028611/878ea32a-5cf4-4c02-8436-52109abf2a36)
 
-### _Aca vemos que podemos usar "vim" como usuario root, asi que podemos explotar ésto para obtener una shell con privilegios de root, lo hacemos de la siguiente manera: (sudo vim) una vez adentro precionamos "Esc" y despues ":" y escribimos "!sh" de manera que el comando final quedaria asi ":!sh" y precionamos "Enter" ésto nos abre la shell como usuario root, lo comprobamos usando el comando "whoami" , si nos devuelve "root" es que lo logramos.
+### _Aca vemos que podemos usar "vim" como usuario root, asi que podemos explotar ésto para obtener una shell con privilegios de root, lo hacemos de la siguiente manera: (sudo vim) una vez adentro precionamos "Esc" y despues ":" y escribimos "!sh" de manera que el comando final quedaria asi ":!sh" y precionamos "Enter" ésto nos abre la shell como usuario root, lo comprobamos usando el comando "whoami" , si nos devuelve "root" es que lo logramos._
 
 ![acceso4](https://github.com/EzeTauil/maquina-Trust/assets/118028611/c13dd59c-84a2-4b3b-a0a2-4ed5b75bdc4e)
 
