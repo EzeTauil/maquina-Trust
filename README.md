@@ -26,7 +26,8 @@ Nmap done: 1 IP address (1 host up) scanned in 6.49 seconds
 ```
 ![scaneo1](https://github.com/EzeTauil/maquina-Trust/assets/118028611/839fd0e6-ddae-4b03-ad92-ea861a58cfa6)
 
-## Paso N°2: Buscamos alguna pista en la web ya que podemos ver en el scaneo de nmap que el puerto "80/tcp open http Apache httpd 2.4.57 ((Debian))" esta abierto, asi que ponemos "http://172.17.0.2" en el navegador para ver que muestra:
+## Paso N°2: Buscamos alguna pista en la web.
+### -Ya que podemos ver en el scaneo de nmap que el puerto "80/tcp open http Apache httpd 2.4.57 ((Debian))" esta abierto, asi que ponemos "http://172.17.0.2" en el navegador para ver que muestra:_
 
 ![scaneo2](https://github.com/EzeTauil/maquina-Trust/assets/118028611/4e677bca-cea9-4c82-8f11-cc9d40e33d8a)
 
@@ -59,7 +60,8 @@ Progress: 1323360 / 1323366 (100.00%)
 Finished
 ===============================================================
 ```
-![scaneo3](https://github.com/EzeTauil/maquina-Trust/assets/118028611/96355424-05fa-4a07-a650-520f5a7b39ad)
+![scaneo3](https://github.com/EzeTauil/maquina-Trust/assets/118028611/8ebee023-93c2-44f5-9310-f141b58d1928)
+
 
 
 ## Paso N°4: revisar y utilizar lo encontrado.
