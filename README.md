@@ -73,7 +73,7 @@ Finished
 ![scaneo4](https://github.com/EzeTauil/maquina-Trust/assets/118028611/098a01f7-2121-470d-9fe4-b0ab13a4b91b)
 
 
-### _Asi que como nos da un nombre (Mario) podemos usarlo de prueba para ver si podemos obtener acceso por medio del ssh, pero como no tenemos la contraseña vamos a usar ataque de fuerza bruta en éste caso con hydra_
+### _Asi que como nos da un nombre (Mario) podemos usarlo de prueba para ver si podemos obtener acceso por medio del ssh, pero como no tenemos la contraseña vamos a usar un "ataque de fuerza bruta", en éste caso con hydra_
 
 ## Paso N°5: Ataque de Fuerza Bruta con Hydra.
 
